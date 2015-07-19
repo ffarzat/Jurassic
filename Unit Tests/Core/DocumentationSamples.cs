@@ -26,15 +26,14 @@ namespace UnitTests
             Assert.AreEqual(3, engine.Evaluate<int>("1.5 + 2.4"));
         }
 
-        [TestMethod]
-        [DeploymentItem(@"Core\Sample Files\")]  
+        [Ignore]
         public void ExecutingScript1()
         {
             var engine = new Jurassic.ScriptEngine();
-            engine.ExecuteFile(@"Sample Files\execute1.js");
+            engine.ExecuteFile(@"..\..\..\Unit Tests\Core\Sample Files\execute1.js");
         }
 
-        [TestMethod]
+        [Ignore]
         public void AccessingAndModifyingGlobalVariables1()
         {
             var engine = new Jurassic.ScriptEngine();

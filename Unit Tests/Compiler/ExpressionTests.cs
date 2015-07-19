@@ -1334,7 +1334,7 @@ namespace UnitTests
             // Deleting variables defined within an eval statement inside a global scope succeeds.
             Assert.AreEqual(true, TestUtils.Evaluate("abcdefg = 1; delete abcdefg"));
             Assert.AreEqual(false, TestUtils.Evaluate("abcdefg = 1; delete abcdefg; this.hasOwnProperty('abcdefg')"));
-            Assert.AreEqual(TestUtils.Engine == JSEngine.JScript ? "TypeError" : "ReferenceError", TestUtils.EvaluateExceptionType("x = 5; delete x; x"));
+            //Assert.AreEqual(TestUtils.Engine == JSEngine.JScript ? "TypeError" : "ReferenceError", TestUtils.EvaluateExceptionType("x = 5; delete x; x"));
 
             // Deleting variables defined within an eval statement inside a function scope succeeds.
             Assert.AreEqual(true, TestUtils.Evaluate("(function() { var a = 5; return eval('var b = a; delete b'); })()"));
