@@ -6,3 +6,13 @@ C:\Users\Fabio\Downloads\jurassic-700f1a573718\jurassic_700f1a573718\Unit Tests\
 C:\Users\Fabio\Downloads\jurassic-700f1a573718\jurassic_700f1a573718\Unit Tests\obj\Debug\Unit Tests.csprojResolveAssemblyReference.cache
 C:\Users\Fabio\Downloads\jurassic-700f1a573718\jurassic_700f1a573718\Unit Tests\obj\Debug\Unit Tests.dll
 C:\Users\Fabio\Downloads\jurassic-700f1a573718\jurassic_700f1a573718\Unit Tests\obj\Debug\Unit Tests.pdb
+D:\GitHub\Jurassic\Unit Tests\bin\Debug\License.txt
+D:\GitHub\Jurassic\Unit Tests\bin\Debug\Unit Tests.dll
+D:\GitHub\Jurassic\Unit Tests\bin\Debug\Unit Tests.pdb
+D:\GitHub\Jurassic\Unit Tests\bin\Debug\Jurassic.dll
+D:\GitHub\Jurassic\Unit Tests\bin\Debug\Jurassic.pdb
+D:\GitHub\Jurassic\Unit Tests\obj\Debug\Unit Tests.csprojResolveAssemblyReference.cache
+D:\GitHub\Jurassic\Unit Tests\obj\Debug\Unit Tests.dll
+D:\GitHub\Jurassic\Unit Tests\obj\Debug\Unit Tests.pdb
+D:\GitHub\Jurassic\Unit Tests\bin\Debug\Core\Sample Files\execute1.js
+D:\GitHub\Jurassic\Unit Tests\bin\Debug\Core\Sample Files\globals1.js

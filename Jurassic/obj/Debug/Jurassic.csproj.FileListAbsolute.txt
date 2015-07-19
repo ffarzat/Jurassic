@@ -4,3 +4,9 @@ C:\Users\Fabio\Downloads\jurassic-700f1a573718\jurassic_700f1a573718\Jurassic\bi
 C:\Users\Fabio\Downloads\jurassic-700f1a573718\jurassic_700f1a573718\Jurassic\obj\Debug\Jurassic.csprojResolveAssemblyReference.cache
 C:\Users\Fabio\Downloads\jurassic-700f1a573718\jurassic_700f1a573718\Jurassic\obj\Debug\Jurassic.dll
 C:\Users\Fabio\Downloads\jurassic-700f1a573718\jurassic_700f1a573718\Jurassic\obj\Debug\Jurassic.pdb
+D:\GitHub\Jurassic\Jurassic\obj\Debug\Jurassic.csprojResolveAssemblyReference.cache
+D:\GitHub\Jurassic\Jurassic\obj\Debug\Jurassic.dll
+D:\GitHub\Jurassic\Jurassic\bin\Debug\License.txt
+D:\GitHub\Jurassic\Jurassic\bin\Debug\Jurassic.dll
+D:\GitHub\Jurassic\Jurassic\bin\Debug\Jurassic.pdb
+D:\GitHub\Jurassic\Jurassic\obj\Debug\Jurassic.pdb

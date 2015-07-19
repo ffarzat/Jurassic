@@ -666,12 +666,13 @@ namespace Jurassic
         public void Execute(ScriptSource source)
         {
             // Compile the script.
-            var compiledScript = Compile(source);
-
-            // ...and execute it.
-            if (this.ExecutionStarted != null)
-                this.ExecutionStarted(this, EventArgs.Empty);
-            compiledScript.Execute();
+            using (var compiledScript = Compile(source))
+            {
+                // ...and execute it.
+                if (this.ExecutionStarted != null)
+                    this.ExecutionStarted(this, EventArgs.Empty);
+                compiledScript.Execute();    
+            }    
         }
 
         /// <summary>
