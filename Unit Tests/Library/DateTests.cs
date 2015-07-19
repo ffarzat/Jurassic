@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 using System.Text;
 using System.Collections.Generic;
 using System.Linq;
@@ -78,6 +79,7 @@ namespace UnitTests
 
             if (TestUtils.Engine != JSEngine.JScript)
             {
+                System.Threading.Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
                 // Date() returns the current date as a string - this test assumes the running time is less than 1s.
                 var str = (string)TestUtils.Evaluate("Date()");
                 var formatString = "ddd MMM dd yyyy HH:mm:ss";
