@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 using System.Text;
 using System.Collections.Generic;
 using System.Linq;
@@ -149,6 +150,7 @@ namespace UnitTests
         {
             if (TestUtils.Engine != JSEngine.JScript)
             {
+                System.Threading.Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
                 Assert.AreEqual("77", TestUtils.Evaluate("77 .toLocaleString()"));
                 Assert.AreEqual("77.5", TestUtils.Evaluate("77.5.toLocaleString()"));
 
