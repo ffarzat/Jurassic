@@ -26,19 +26,19 @@ namespace UnitTests
             Assert.AreEqual(3, engine.Evaluate<int>("1.5 + 2.4"));
         }
 
-        [Ignore]
+        [TestMethod]
         public void ExecutingScript1()
         {
             var engine = new Jurassic.ScriptEngine();
-            engine.ExecuteFile(@"..\..\..\Unit Tests\Core\Sample Files\execute1.js");
+            engine.ExecuteFile(@"D:\GitHub\Jurassic\Unit Tests\Core\Sample Files\execute1.js");
         }
 
-        [Ignore]
+        [TestMethod]
         public void AccessingAndModifyingGlobalVariables1()
         {
             var engine = new Jurassic.ScriptEngine();
             engine.SetGlobalValue("interop", 15);
-            engine.ExecuteFile(@"..\..\..\Unit Tests\Core\Sample Files\globals1.js");
+            engine.ExecuteFile(@"D:\GitHub\Jurassic\Unit Tests\Core\Sample Files\globals1.js");
             Assert.AreEqual(20, engine.GetGlobalValue<int>("interop"));
         }
 
