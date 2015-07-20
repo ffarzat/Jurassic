@@ -4,3 +4,4 @@ D:\GitHub\Jurassic\Jurassic\bin\Release\Jurassic.dll
 D:\GitHub\Jurassic\Jurassic\bin\Release\Jurassic.pdb
 D:\GitHub\Jurassic\Jurassic\obj\Release\Jurassic.dll
 D:\GitHub\Jurassic\Jurassic\obj\Release\Jurassic.pdb
+D:\GitHub\Jurassic\Jurassic\obj\Release\Jurassic.csprojResolveAssemblyReference.cache

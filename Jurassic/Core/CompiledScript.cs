@@ -7,7 +7,7 @@ namespace Jurassic
     /// <summary>
     /// Represents the result of compiling a script.
     /// </summary>
-    public sealed class CompiledScript: IDisposable
+    public sealed class CompiledScript
     {
         private GlobalMethodGenerator methodGen;
 
@@ -24,13 +24,6 @@ namespace Jurassic
         public void Execute()
         {
             methodGen.Execute();
-        }
-
-
-        public void Dispose()
-        {
-            GC.ReRegisterForFinalize(methodGen);
-            methodGen = null;
         }
     }
 }

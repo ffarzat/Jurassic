@@ -672,9 +672,6 @@ namespace Jurassic
             if (this.ExecutionStarted != null)
                 this.ExecutionStarted(this, EventArgs.Empty);
             compiledScript.Execute();    
-
-            compiledScript.Dispose();
-                
         }
 
         /// <summary>
