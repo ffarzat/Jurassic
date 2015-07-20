@@ -93,7 +93,7 @@ namespace Jurassic.Compiler
             object result = ((Func<ScriptEngine, Scope, object, object>)this.GeneratedMethod.GeneratedDelegate)(this.Engine, this.InitialScope, this.Engine.Global);
 
             // Ensure the abstract syntax tree is kept alive until the eval code finishes running.
-            GC.KeepAlive(this);
+            //GC.KeepAlive(this);
 
             // Return the result.
             return result;

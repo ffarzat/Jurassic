@@ -1,0 +1,11 @@
+D:\GitHub\Jurassic\Unit Tests\bin\Release\License.txt
+D:\GitHub\Jurassic\Unit Tests\bin\Release\Core\Sample Files\execute1.js
+D:\GitHub\Jurassic\Unit Tests\bin\Release\Core\Sample Files\globals1.js
+D:\GitHub\Jurassic\Unit Tests\bin\Release\Unit Tests.dll
+D:\GitHub\Jurassic\Unit Tests\bin\Release\Unit Tests.pdb
+D:\GitHub\Jurassic\Unit Tests\bin\Release\Jurassic.dll
+D:\GitHub\Jurassic\Unit Tests\bin\Release\Jurassic.pdb
+D:\GitHub\Jurassic\Unit Tests\bin\Release\Jurassic.xml
+D:\GitHub\Jurassic\Unit Tests\obj\Release\Unit Tests.csprojResolveAssemblyReference.cache
+D:\GitHub\Jurassic\Unit Tests\obj\Release\Unit Tests.dll
+D:\GitHub\Jurassic\Unit Tests\obj\Release\Unit Tests.pdb

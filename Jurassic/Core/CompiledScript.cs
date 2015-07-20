@@ -29,7 +29,7 @@ namespace Jurassic
 
         public void Dispose()
         {
-            GC.ReRegisterForFinalize(methodGen);
+            //GC.ReRegisterForFinalize(methodGen);
         }
     }
 }
